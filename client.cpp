@@ -72,7 +72,7 @@ std::atomic<bool> g_running{ false };
 std::thread g_readerThread;
 std::mutex g_chatMutex;
 
-std::string g_serverIp = "217.199.254.86";
+std::string g_serverIp = "";
 std::string g_port = "8000";
 const std::string g_path = "/api/server/chats";
 
